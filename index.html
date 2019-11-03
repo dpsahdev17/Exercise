@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Exercise 1</title>
+</head>
+
+<body>
+  <form action='' method='POST'>
+    <table>
+      <tr>
+        <td><b>&emsp; Contact form</b></td>
+      </tr>
+      <tr>
+        <td>Your Name*:&nbsp;&ensp; <input type="text" name="name"></td>
+      </tr>
+      <tr>
+        <td>E-mail*:&ensp;&emsp;&emsp; <input type="email" name="E-mail"></td>
+      </tr>
+      <tr>
+        <td>Phone number: <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+      </tr>
+      <tr>
+        <td>Website*:&emsp;&emsp; <input type="url" placeholder="http://" style="width: 230px;"><br><br></td>
+      </tr>
+      <tr>
+        <td>Comments*: <br /><textarea rows="7" cols="35"></textarea><br><br><br></td>
+      </tr>
+      <tr>
+        <td>
+          <b>Text field </b> <br />
+          Your name: <input type="text" name="yourname"><br><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Password field </b> <br />
+          Password: <input type="text" name="pass"><br><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Radio buttons </b> <br />
+          Do you like pizza?<br />
+          <input type="radio" name="pizza" value="yes" checked> Yes<br>
+          <input type="radio" name="pizza" value="no"> No<br>
+          <input type="radio" name="pizza" value="maybe"> Maybe<br>
+          <input type="radio" name="pizza" value="nevertried"> Never tried<br><br>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="service">Check this box if you like our service<br><br></td>
+      </tr>
+      <tr>
+        <td>
+          <b>Text area </b> <br />
+          Anything you would like to say? <br /><textarea rows="6" cols="50"></textarea><br><br>
+        </td>
+      </tr>
+      <tr>
+        <td><b>I Like </b><br /> <br />
+          <select multiple>
+            <option>mushrooms</option>
+            <option>green peppers</option>
+            <option>onions</option>
+            <option>tomatoes</option>
+            <option>olives</option>
+          </select>
+          <br /><br />
+        </td>
+      </tr>
+      <tr>
+        <td> <b>Menu </b> <br />
+          Your favorite color: <br />
+          <select>
+            <option>red</option>
+            <option>blue</option>
+            <option>green</option>
+          </select> <br /><br />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Attach file </b> <br />
+          <input type="file" name="files"> <br /><br />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Buttons </b> <br />
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+          <br /><br />
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
